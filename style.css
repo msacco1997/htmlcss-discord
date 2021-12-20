@@ -4,15 +4,68 @@ html {
 }
 
 * {
-    margin: 0 auto;
+    margin: 0;
+    
+    
+}
+
+#viewport {
+    
 }
 
 /* Header */
+header {
+    
+}
+.full__box {
+    max-width: 1920px;
+    height: 510px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/jumbo.png);
+}
 
 .row {
-    display: inline-block;
+    
+    
+    padding: 20px;
+    
+    
+    
+    text-align: center;
+
 }
 
 .row ul {
+    list-style-type: none;
     
+    
+}
+
+.row li {
+    float: left;
+    color: white;
+}
+.button {
+   
+}
+
+.logo {
+    
+    
+}
+
+button {
+    
+    
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
 }
